@@ -2,7 +2,7 @@
 
 Classes are like the skeleton from which individual objects are created. When
 you make use of classes you can reuse code rather than writing similar code over
-and over again. This makes code more readable a _"DRY"_ (**D**on’t **R**epeat
+and over again. This makes code more readable and _"DRY"_ (**D**on’t **R**epeat
 **Y**ourself).
 
 So far, we've primarily created instance methods and instance variables for our
