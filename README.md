@@ -1,8 +1,15 @@
 # Introduction to Class Variables and Methods in Ruby
 
-Classes are like the skeleton from which individual objects are created and
-class variables are available across different objects. So far, we've primarily
-created instance methods.
+Classes are like the skeleton from which individual objects are created. When
+you make use of classes you can reuse code rather than writing similar code over
+and over again. This makes code more readable a _"DRY"_ (**D**on’t **R**epeat
+**Y**ourself).
+
+So far, we've primarily created instance methods and instance variables for our
+individual objects to use. However, we can also create class methods and
+variables. Class variables are used to store values related to a class rather
+than a particular instance. Class methods are similarly used for implementing
+behavior that is related to a class in general rather than an instance.
 
 In the next several lessons we'll be taking a look at:
 
@@ -14,6 +21,6 @@ In the next several lessons we'll be taking a look at:
 * Using class variables to keep track of data pertaining to a class
 * The concept of remembrance in object-oriented programming
 
-At a glance, you might assume a class variables work like instance variables,
+At a glance, you might assume class variables work like instance variables,
 however this is not the case. In this section, we'll distinguish the difference
 between class methods and variables and when to use them.
