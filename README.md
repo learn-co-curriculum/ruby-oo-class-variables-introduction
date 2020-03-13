@@ -21,6 +21,8 @@ In the next several lessons we'll be taking a look at:
 * Using class variables to keep track of data pertaining to a class
 * The concept of remembrance in object-oriented programming
 
-At a glance, you might assume class variables work like instance variables,
-however this is not the case. In this section, we'll distinguish the difference
+At a glance, you might assume class variables work like instance variables;
+however, this is not the case. In this section, we'll distinguish the difference
 between class methods and variables and when to use them.
+
+If at any point you need a refresher on different types of Ruby variables, [check this blog post](https://medium.com/swlh/hitchhikers-guide-to-ruby-variables-1b4cf83d540c).
